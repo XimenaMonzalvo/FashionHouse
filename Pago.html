@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago</title>
+    <link rel="shortcut icon" href="Imagenes/Icono.jpg">
+    <link rel="stylesheet" href="Pago Estilo.css">
+</head> 
+<body>
+    <!--Banner--> 
+    <img src="Imagenes/Banner.jpg" width="500" height="150">
+    
+    <!--Botón inicio de sesión--> 
+    <div class="boton">
+    <form method="get" action="http://aprenderaprogramar.com/accion.php">
+        <input type="submit" value="Iniciar Sesión" />
+    </div>
+  <br><br>
+    <!--Datos de compra-->
+      <h1><center>Datos de compra</center></h1>
+     
+      <table>
+        <tr>
+          <th> Importe:</th>
+        </tr>
+        <tr>
+          <th> Productos:</th>
+        </tr>
+        <tr>
+          <th> N.de Pedido:</th>
+        </tr>
+        <tr>
+          <th> Fecha y Hora:</th>
+        </tr>
+        <tr>
+          <th> Enviar a:</th>
+        </tr>
+        <tr>
+          <th> Total a pagar: </th>
+        </tr>
+      </table>
+  <p><em>Aceptamos </em></p>
+
+      <!--Pago con tarjeta-->
+       <h1><center>Pago con tarjeta</center></h1>
+  <div class="Tarjeta">
+   <label for="numtarjeta">Número de tarjeta</label>
+      <input type="text" id="numtarjeta" name="numtarjeta" required
+         minlength="16" maxlength="16" size="16">
+
+<br><br>
+    <label for="nomtarjeta">Nombre en la tarjeta</label>
+      <input type="text" id="nomtarjeta" name="nomtarjeta" required
+       minlength="25" maxlength="30" size="30">
+
+<br><br>
+
+    <label for="Caducidad">Caducidad</label for>
+    <label for="mes">Mes</label>
+      <input type="text" id="mes" name="mes" required
+       minlength="2" maxlength="2" size="2">
+
+    <label for="año">Año</label>
+      <input type="text" id="año" name="año" required
+       minlength="4" maxlength="4" size="4">
+
+<br><br>
+
+    <label for="codigo">Cod Seguridad</label>
+      <input type="text" id="codigo" name="codigo" required
+         minlength="3" maxlength="3" size="3">
+
+<br><br>
+         
+<div class="boton 2">
+   <form method="get" action="http://aprenderaprogramar.com/accion.php">
+     <input type="submit" value="Enviar" />
+       </div>
+
+      <!--Paypal-->
+    <h1><center>Pago con Paypal</center></h1>
+    
+    <label for="correo">Correo Electronico </label>
+    <input type="text" id="corre" name="correo" required
+     minlength="10" maxlength="50" size="50">
+
+<br><br>    
+     <label for="contra">Contraseña</label>
+     <input type="text" id="contra" name="contra" required
+      minlength="5" maxlength="30" size="30">
+  </div>
+<br><br>
+
+<div class="boton 3">
+  <form method="get" action="">
+    <input type="submit" value="Enviar" />
+      </div>
+
+        <!--Info-->
+    <br><br><br>                        
+    <footer>
+      <p><em>Encuentranos en:</em></p>
+      <form method="get" action="">
+          <input name="boton1" type="image"
+              src="/D:\Users\rebel\Desktop\Fashion House\Imagenes\iconosredes.png" width="120" height="80">
+       
+      <div class="Aceptamos">
+      <p><em>Aceptamos:</em></p>
+      <form method="get" action="">
+          <input name="boton1" type="image"
+              src="D:\Users\rebel\Desktop\Fashion House\Imagenes\tarjetas.jpg" width="120" height="80">
+      </div>
+  
+      <br><br><br>  
+  
+      <div class="Enlaces">                      
+      <a href="URI"> Centro de privacidad | </a>                   
+      <a href="URI"> Política de privacidad y cookies |</a>
+      <a href="URI"> Términos y condiciones | </a>
+      <a href="URI">  Aviso de Copyright | </a>
+      </div>
+  
+      <div class="Final">    
+          <p><em> © 2022 Fashion House, Todos los derechos reservados </em></p>
+      </div>
+<br><br><br><br>
+</body>
+</html>
