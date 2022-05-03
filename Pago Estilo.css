@@ -1,0 +1,26 @@
+.table{
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: center;
+    margin-right: center;
+}
+tr{
+    border: 2px solid black;
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center
+}
+.Aceptamos{
+    display: flex;
+    justify-content: right
+}
+.Enlaces{
+    display: flex;
+    justify-content: center
+}
+.Final{
+    display: flex;
+    justify-content: center
+}
